@@ -1,0 +1,51 @@
+.container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:30px;
+  justify-content: center;
+}
+
+.product-card {
+  border: 1px solid #f7d0f1;
+  padding: 11px;
+
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 5px 8px rgba(2, 73, 73, 0.562);
+  text-align: center;
+  width: 300px;
+}
+
+
+.product-card a {
+  text-decoration: none;
+  color: #770049;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+/* nada medhat */
+  margin-bottom: 10px;
+  border-radius: 20%;
+  height: 200px;
+}
+
+.product-card h3 {
+  font-size: 13px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .product-card {
+      width: 100%;
+  }
+}
+/*mahmoud fawzy*/
